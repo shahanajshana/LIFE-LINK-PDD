@@ -1,0 +1,16 @@
+{
+  "name": "lifelink-root",
+  "version": "1.0.0",
+  "description": "LifeLink Smart Blood Network Application (Supabase Backend + React Frontend)",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm start --prefix frontend",
+    "mobile": "npm start --prefix lifelink_mobile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,47 @@
+.intro-page {
+  height: 100vh;
+  background: linear-gradient(to right, #c31432, #240b36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-content h1 {
+  color: white;
+  font-size: 55px;
+  max-width: 700px;
+}
+
+.intro-content p {
+  color: white;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.button-group {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skip-btn {
+  padding: 14px 30px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.start-btn {
+  padding: 14px 30px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}

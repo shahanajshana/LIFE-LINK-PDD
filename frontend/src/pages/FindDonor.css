@@ -1,0 +1,38 @@
+.find-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8e0e00, #1f1c18);
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.donor-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.donor-card {
+  background: rgba(255,255,255,0.15);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.donor-card:hover {
+  transform: scale(1.05);
+  background: rgba(255,0,0,0.3);
+}
